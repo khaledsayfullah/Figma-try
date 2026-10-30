@@ -1,0 +1,68 @@
+/* common css style start  */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ol,ul{
+    list-style-type: none;
+}
+.container{
+    width: 1440px;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+/* common css style end  */
+#header{
+    padding: 20px 0;
+    background-color: white;
+}
+
+.menulist ul{
+    display: flex;
+    gap: 48px;
+}
+.menuflex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menulist ul li a{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    text-transform: uppercase;
+
+}
+.menulist ul li a:hover{
+    border-bottom: 2px solid red;
+
+}
+.content{
+    margin: 0 auto;
+    height: 154px;
+    width: 1020px;
+    font-weight: 300;
+    font-size: 64px;
+    font-family: "Newsreader", serif;
+    line-height: 120%;
+    letter-spacing: -2%;
+    text-align: center;
+    align-items: center;
+}
+.shopbtn{
+    background-color: #426B1F;
+    font-family: "Inter", sans-serif;
+    color: white;
+    height: 64px;
+    width: 227px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: none;
+    margin-top: 40px;
+    cursor: pointer;
+}
